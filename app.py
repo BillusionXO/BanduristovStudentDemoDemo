@@ -10,8 +10,8 @@ class Order(BaseModel):
     description: str
     client : str
     status : str
-    
 
+repo = []
 
 from fastapi import FastAPI
 
